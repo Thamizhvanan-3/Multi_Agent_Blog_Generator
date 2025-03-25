@@ -2,7 +2,7 @@ import requests
 
 class ResearchAgent:
     def __init__(self):
-        self.api_key = "012a35cfc982244ca495138a89841ec21e8e832085ad305a0f8bb7dab28f5811"
+        self.api_key = "Enter your API key"
         self.endpoint = "https://serpapi.com/search"
 
     def research_topic(self, topic):
